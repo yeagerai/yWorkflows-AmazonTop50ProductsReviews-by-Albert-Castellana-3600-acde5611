@@ -1,0 +1,7 @@
+description: This Component searches Amazon for the top 50 products with the provided
+  product name. It uses the Amazon's search API to perform the search and retrieves
+  the product URLs, names, and ASINs in the search results.
+name: AmazonScraper
+parameters:
+  api_key: ''
+  search_results_limit: 50
