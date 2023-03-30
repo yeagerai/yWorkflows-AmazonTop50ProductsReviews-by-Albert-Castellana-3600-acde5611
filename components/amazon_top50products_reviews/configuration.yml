@@ -3,5 +3,7 @@ description: IOs - 'The input required for the workflow is a ProductNameModel, w
   (str). The output of this workflow will be a FileModel (subclassed from pydantic.BaseModel
   as well), which contains a ''file_path'' field (str) for the path of the created
   spreadsheet.
+input-class: ProductNameModel
 name: AmazonTop50ProductsReviews
+output-class: FileModel
 parameters: {}
